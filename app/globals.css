@@ -217,3 +217,17 @@
   @apply cursor-default select-none py-2 pl-10 pr-4;
 }
 /* END: search manufacturer styles */
+
+.options-container {
+  position: absolute;
+  top: calc(100% + 10px); /* Adjust this value as needed */
+  left: 0;
+  right: 0;
+  background-color: white;
+  /* border: 1px solid #ccc; */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure the options are above other content */
+  padding: 8px;
+  max-height: 500px;
+  overflow-y: auto;
+}

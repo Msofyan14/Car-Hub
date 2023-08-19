@@ -49,7 +49,7 @@ const SearchManufacturer = ({
             leaveTo="opacity-0"
             afterLeave={() => setQuery("")}
           >
-            <Combobox.Options>
+            <Combobox.Options className="options-container">
               {filteredManufacturers.length === 0 && query !== "" ? (
                 <div className="relative search-manufacturer__option ">
                   Nothing found
