@@ -10,7 +10,7 @@ const SearchManufacturer = ({
   manufacturer,
   setManufacturer,
 }: SearchManufacturerProps) => {
-  const [query, setQuery] = useState("second");
+  const [query, setQuery] = useState("");
 
   const filteredManufacturers =
     query === ""

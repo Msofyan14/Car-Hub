@@ -29,7 +29,7 @@ export const manufacturers = [
   "Mazda",
   "McLaren",
   "Mercedes-Benz",
-  "MINI",
+  "Mini",
   "Mitsubishi",
   "Nissan",
   "Porsche",
